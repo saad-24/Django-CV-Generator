@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,900;1,100;1,900&display=swap" rel="stylesheet">
+    <title>CV GENERATOR</title>
+</head>
+<body>
+    <div class="main-heading">
+    <h1>DJANGO CV GENERATOR</h1>
+</div>
+<hr>
+    
+    <div id="DivOne">
+        <form action="/send" method="post">
+            {% csrf_token %}
+            <h3>Name <input type="text" name="name" id="institute"></h3>
+            <h3>Title <input type="text" name="title" id="institute"></h3>
+            <h3>Phone<input type="text" name="phone" id="institute"></h3>
+            <h3>Email<input type="text" name="email" id="institute"></h3>
+            <h3>Linkedin<input type="text" name="linkedin_profile" id="company"></h3>
+            <h3>Github<input type="text" name="github_profile" id="institute"></h3>
+            <h3>Portfolio<input type="text" name="portfolio_link" id="company"></h3>
+            <h3>About<input type="text" name="content" id="institute"></h3>
+            <hr>
+
+            <h1 style="color: lightblue; text-align: center;">JOB EXPERIENCE</h1>
+            <hr>
+            <h3>Tenure<input type="text" name="tenure" id="institute"></h3>
+            <h3>Designation<input type="text" name="designation" id="name"></h3>
+            <h3>Company<input type="text" name="company_name" id="company"></h3>
+            <h3>Description<input type="text" name="description" id="name"></h3>
+
+            <h3>Tenure<input type="text" name="tenure1" id="institute"></h3>
+            <h3>Designation<input type="text" name="designation1" id="name"></h3>
+            <h3>Company<input type="text" name="company_name1" id="company"></h3>
+            <h3>Description<input type="text" name="description1" id="name"></h3>
+
+            <h3>Tenure<input type="text" name="tenure2" id="institute"></h3>
+            <h3>Designation<input type="text" name="designation2" id="name"></h3>
+            <h3>Company<input type="text" name="company_name2" id="company"></h3>
+            <h3>Description<input type="text" name="description2" id="name"></h3>
+            <hr>
+
+            <h1 style="color: lightblue; text-align: center;" >EDUCATION</h1>
+            <hr>
+            <h3>period<input type="text" name="period" id="period"></h3>
+            <h3>Degree<input type="text" name="degree" id="degree"></h3>
+            <h3>Institute<input type="text" name="institute_name" id="institute"></h3>
+            <h3>Details<input type="text" name="academic_details" id="details"></h3>
+            <hr>
+            <h1 style="color: lightblue;text-align: center;">SKILLS</h1>
+            <hr>
+            <h3>Skills<input type="text" name="skills" id="skills"></h3>
+            <h3>Skills<input type="text" name="skills1" id="skills"></h3>
+            <h3>Skills<input type="text" name="skills2" id="skills"></h3>
+            <hr>
+            <h1 style="color: lightblue;text-align: center;">CERTIFICATIONS</h1>
+            <hr>
+            <h3>Certifications<input type="text" name="certificate_name" id="name"></h3>
+            <h3>Certifications<input type="text" name="certificate_name1" id="name"></h3>
+            <h3>Certifications<input type="text" name="certificate_name2" id="name"></h3>
+
+            <input type="submit" id="btn">
+        </form>
+    </div>
+
+    <div id="DivTwo">
+        <form action="/show">
+            <input type="submit" value="Show Records">
+        </form>
+    </div>
+
+</body>
+
+<script>
+    var msg = '{{msg}}';
+    document.getElementById('btn').addEventListener("click", function(){alert(msg)});</script>
+
+
+</html>

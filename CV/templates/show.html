@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'show.css' %}">
+    <title>Show</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,900;1,100;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-heading">
+        <h1>DJANGO CV GENERATOR</h1>
+    </div>
+    <hr>
+    <!-- <div id="SecondDiv">
+        <form action="/">
+            <input type="Submit" value="<< Back">
+        </form>
+    </div> -->
+    <div id="OneDiv">
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Options</th>
+            </thead>
+            {% for d in data %}
+                <tr>
+                    <td>{{d.name}}</td>
+                    <td>
+                        <a href="/edit/{{d.id}}">Edit</a>
+                        <a href="/delete/{{d.id}}">Delete</a>
+                        <a href="/view/{{d.id}}">VIEW</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

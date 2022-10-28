@@ -1,0 +1,81 @@
+body {
+    margin: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+}
+.name h2{
+    font-size: 50px;
+
+
+}
+
+.title h5 {
+    margin-top: -35px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.links {
+    margin-top: -130px;
+    line-height: 15px;
+}
+
+.links h5 {
+    text-align: end;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-me h5{
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.about-me h4 {
+    font-size: 25px;
+}
+
+.experience {
+    font-size: 25px;
+}
+
+.tenure {
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.com-name {
+    margin-top: -75px;
+    margin-left: 200px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.role {
+    margin-left: 200px;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.description {
+    margin-left: 200px;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.com-name1 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+
+

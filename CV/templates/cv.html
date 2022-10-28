@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'cv.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;0,900;1,100;1,900&display=swap" rel="stylesheet">
+    <title>Show Data</title>
+
+</head>
+<body>
+    <div class="name">
+    <h2>{{user_profile.name}}</h2>
+    </div>
+    <div class="title">
+        <h5>{{user_profile.title}}</h5>
+    </div>
+    <div class="links">
+        <h5>{{user_profile.phone}}</h5>
+        <h5>{{user_profile.email}}</h5>
+        <h5>{{user_profile.linkedin_profile}}</h5>
+        <h5>{{user_profile.github_profile}}</h5>
+    </div>
+    <hr>
+    <div class="about-me">
+        <h4>ABOUT ME</h4>
+        <h5>{{user_profile.content}}</h5>
+    </div>
+    <hr>
+    <div class="experience">
+        <h4>EXPERIENCE</h4>
+        <li>
+        <h5 class="tenure">{{user_profile.tenure}}</h5>
+        <h5 class="com-name">{{user_profile.company_name}}</h5>
+        <h5 class="role">{{user_profile.designation}}</h5>
+        <h5 class="description">{{user_profile.description}}</h5>
+    </li>
+    <li>
+        <h5 class="tenure">{{user_profile.tenure1}}</h5>
+        <h5 class="com-name">{{user_profile.company_name1}}</h5>
+        <h5 class="role">{{user_profile.designation1}}</h5>
+        <h5 class="description">{{user_profile.description1}}</h5>  
+    </li>
+    <li>
+        <h5 class="tenure">{{user_profile.tenure2}}</h5>
+        <h5 class="com-name">{{user_profile.company_name2}}</h5>
+        <h5 class="role">{{user_profile.designation2}}</h5>
+        <h5 class="description">{{user_profile.description2}}</h5>
+    </li>
+    </div>
+    <div class="experience">
+        <h4>EDUCATION</h4>
+    <li>
+        <h5 class="tenure">{{user_profile.period}}</h5>
+        <h5 class="com-name">{{user_profile.institute_name}}</h5>
+        <h5 class="role">{{user_profile.degree}}</h5>
+        <h5 class="description">{{user_profile.academic_details}}</h5>
+    </li>
+</div>
+<div class="experience">
+    <h4>SKILLS</h4>
+
+    <h5 class="role">{{user_profile.skills}}</h5>
+    <h5 class="role">{{user_profile.skills1}}</h5>
+    <h5 class="role">{{user_profile.skills2}}</h5>
+</div>
+<div class="experience">
+    <h4>CERTIFICATIONS</h4>
+
+    <h5 class="role">{{user_profile.certificate_name}}</h5>
+    <h5 class="role">{{user_profile.certificate_name1}}</h5>
+    <h5 class="role">{{user_profile.certificate_name2}}</h5>
+</div>
+
+</body>
+</html>

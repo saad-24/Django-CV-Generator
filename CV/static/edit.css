@@ -1,0 +1,184 @@
+body
+{
+    background-color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+.main-heading {
+    margin: 0;
+    background-color: white;
+    color: lightblue;
+}
+
+.main-heading h1 {
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+#name {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 60px;
+}
+
+#title {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 130px;
+}
+#period {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 120px;
+}
+#degree {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 110px;
+}
+#company {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 80px;
+}
+
+#institute {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 100px;
+}
+#details {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 115px;
+}
+#email {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 130px;
+}
+
+#skills {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 130px;
+}
+
+#linkedin {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 130px;
+}
+
+
+#record {
+    margin-left: 48%;
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#DivOne
+{
+    max-width: fit-content;
+    padding: 1%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#name {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 60px;
+}
+
+#id {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-left: 70px;
+
+}
+
+
+#roll {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+
+#btn
+{
+    margin-left: 50%;
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#btn:hover {
+    background-color: white;
+    color: lightblue;
+}
+
+#DivTwo
+{
+    margin-left: 90%;
+}
+
